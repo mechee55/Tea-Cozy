@@ -5,8 +5,8 @@ body {
 	color: seashell;
 	opacity: 0.9;
 	text-align: center;
-	display: flex;
 }
+
 
 
 h4 {
@@ -47,8 +47,10 @@ a {
 
 .content-boxes {
 	margin-top: 62px;
+	width: 1280px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 
 }
@@ -66,15 +68,14 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	width: 1200px;
+	height: 120px;
 	background-color: black;
 	position: absolute;
-	height: 120px;
-
 }
 
 .tea-box {
 	width: 1000px;
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 .totm {
@@ -84,9 +85,44 @@ a {
 	justify-content: center;
 }
 
-
-
 #teas {
 	height: 200px; 
 	width: 300px;
 }
+
+.locations {
+	height: 550px;
+	width: 1200px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+	padding-top: 30px;
+}
+
+
+.city-box {
+	width: 980px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+.cities {
+	background-color: black;
+	opacity: 1;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}	
+
+.footer {
+	text-align: left;
+	padding-left: 20px;
+}
+
+
