@@ -117,13 +117,30 @@ a {
 	width: 300px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	
+	justify-content: center;
+	align-items: center;
 }	
 
 .contact {
 	height: 200px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+
+}
+
+.contact h5 {
+	margin-top: 10px;
+
+
 }
 
 .footer {
 	text-align: left;
+	padding-left: 20px;
+
+}
+
+
+
+
