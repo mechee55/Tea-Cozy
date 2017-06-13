@@ -1,0 +1,92 @@
+body {
+	background-color: black;
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+	display: flex;
+}
+
+
+h4 {
+	margin-top: 10px;
+
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 69px;
+	position: fixed;
+	border-bottom: 1px solid seashell; 
+	width: 100%;
+	background-color: black;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.logo {
+	padding: 10px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+span {
+	padding: 0px 10px;
+	margin-right: 10px;
+}
+
+a { 
+	color: seashell;
+ } 
+
+.content-boxes {
+	margin-top: 62px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.mission-box {
+	padding: 0px 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1200px;
+	background-color: black;
+	position: absolute;
+	height: 120px;
+
+}
+
+.tea-box {
+	width: 1000px;
+	margin-top: 40px;
+}
+
+.totm {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+#teas {
+	height: 200px; 
+	width: 300px;
+}
