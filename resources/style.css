@@ -7,6 +7,14 @@ body {
 	text-align: center;
 }
 
+.contents {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: -69px;	
+
+}
 
 
 h4 {
@@ -18,9 +26,9 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	height: 69px;
+	width: 100%;
 	position: fixed;
 	border-bottom: 1px solid seashell; 
-	width: 100%;
 	background-color: black;
 	top: 0px;
 	left: 0px;
@@ -33,6 +41,7 @@ h4 {
 
 .nav {
 	display: flex;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -45,19 +54,9 @@ a {
 	color: seashell;
  } 
 
-.content-boxes {
-	margin-top: 62px;
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	
-
-}
-
 .mission-box {
 	padding: 0px 40px;
+	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -66,8 +65,8 @@ a {
 
 .banner {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	width: 1200px;
 	height: 120px;
 	background-color: black;
@@ -76,7 +75,7 @@ a {
 
 .tea-box {
 	width: 1000px;
-	margin-top: 50px;
+	margin-top: -40px;
 }
 
 .totm {
@@ -102,6 +101,10 @@ a {
 	padding-top: 30px;
 }
 
+.locations h2 {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
 
 .city-box {
 	width: 980px;
@@ -141,6 +144,10 @@ a {
 
 }
 
+#mission, #featured, #locations {
+	padding-top: 80px;
+
+}
 
 
 
