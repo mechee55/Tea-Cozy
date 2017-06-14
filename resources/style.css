@@ -5,8 +5,22 @@ body {
 	color: seashell;
 	opacity: 0.9;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
+
+.contents {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: seashell; 	
+	margin-top: 60px;
+
+}
 
 
 h4 {
@@ -18,9 +32,9 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	height: 69px;
+	width: 100%;
 	position: fixed;
 	border-bottom: 1px solid seashell; 
-	width: 100%;
 	background-color: black;
 	top: 0px;
 	left: 0px;
@@ -33,6 +47,7 @@ h4 {
 
 .nav {
 	display: flex;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -45,38 +60,35 @@ a {
 	color: seashell;
  } 
 
-.content-boxes {
-	margin-top: 62px;
-	
+.mission-box {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	width: 1200px;
+	height: 700px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	
-
 }
 
-.mission-box {
-	padding: 0px 40px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-
-}
 
 .banner {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 1200px;
-	height: 120px;
 	background-color: black;
-	position: absolute;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.banner h2 {
+	margin: 15px 0px;
+}
+
+
+.banner h4 {
+	margin-bottom: 10px;
 }
 
 .tea-box {
 	width: 1000px;
-	margin-top: 50px;
+	margin-top: -40px;
 }
 
 .totm {
@@ -102,6 +114,10 @@ a {
 	padding-top: 30px;
 }
 
+.locations h2 {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
 
 .city-box {
 	width: 980px;
@@ -117,13 +133,31 @@ a {
 	width: 300px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	
+	justify-content: center;
+	align-items: center;
 }	
+
+.contact {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+
+}
+
+.contact h5 {
+	margin-top: 10px;
+
+}
 
 .footer {
 	text-align: left;
 	padding-left: 20px;
+	align-self: flex-start;
+
 }
 
+#mission, #featured, #locations {
+	padding-top: 80px;
 
+}
