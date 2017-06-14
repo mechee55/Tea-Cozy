@@ -124,7 +124,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
+
 }
 
 .cities {
@@ -135,7 +135,8 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}	
+
+}
 
 .contact {
 	height: 200px;
