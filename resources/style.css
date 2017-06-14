@@ -5,7 +5,12 @@ body {
 	color: seashell;
 	opacity: 0.9;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
 
 .contents {
 	display: flex;
@@ -13,7 +18,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	color: seashell; 	
-	margin-top: 69px;
+	margin-top: 60px;
 
 }
 
@@ -62,7 +67,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-
 }
 
 
@@ -70,6 +74,7 @@ a {
 	background-color: black;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 25px;
 }
 
 .banner h2 {
