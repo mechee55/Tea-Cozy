@@ -12,7 +12,8 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: -69px;	
+	color: seashell; 	
+	margin-top: 69px;
 
 }
 
@@ -55,22 +56,29 @@ a {
  } 
 
 .mission-box {
-	padding: 0px 40px;
-	margin-top: 50px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	width: 1200px;
+	height: 700px;
 	display: flex;
-	flex-direction: row;
-	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 
 }
 
+
 .banner {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 1200px;
-	height: 120px;
 	background-color: black;
-	position: absolute;
+	display: flex;
+	flex-direction: column;
+}
+
+.banner h2 {
+	margin: 15px 0px;
+}
+
+
+.banner h4 {
+	margin-bottom: 10px;
 }
 
 .tea-box {
